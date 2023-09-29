@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Punya sau</title>
+    <title>Data Tabel</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
 
-    <div class="gis-table">
-    <h1>GIS</h1>
-    <table id="gisTable" border="1">
+    <div class="point-table">
+    <h1>Data Point</h1>
+    <table id="pointTable" border="1">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Coordinate</th>
+                <th>Nama</th>
+                <th>Koordinat</th>
                 <th>Type</th>
             </tr>
         </thead>
@@ -19,7 +20,33 @@
     </table>
 </div>
 
+<div class="polygon-table">
+    <h1>Data Polygon</h1>
+    <table id="polygonTable" border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Koordinat</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
 
+<div class="polyline-table">
+    <h1>Data Polyline</h1>
+    <table id="polylineTable" border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Koordinat</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
     <script type="module" src="./app.js"></script>
 </body>
 </html>
