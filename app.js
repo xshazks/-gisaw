@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    const pointTable = document.getElementById("pointTable").getElementsByTagName('tbody')[0];
+    const pointTable = document.getElementById("polygonTable").getElementsByTagName('tbody')[0];
 
     fetch("polygon.json") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    const pointTable = document.getElementById("pointTable").getElementsByTagName('tbody')[0];
+    const pointTable = document.getElementById("polylineTable").getElementsByTagName('tbody')[0];
 
     fetch("polyline.json") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
